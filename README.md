@@ -8,23 +8,23 @@ I found that simply scrolling through the purchase records backwards and looking
 
 ## Directory
 
-The main directory contains the following files/folders:
--insight_testsuit
---tests
----test_1
-----log_input
-----log_output
---run_tests.sh
--log_input
---batch_log.json
---stream_log.json
--log_output
---flagged_purchases.json
--src
---Main.py
---Function_Definitions.py
--README.md
--run.sh
+The main directory contains the following files/folders:  
+-insight_testsuit  
+--tests  
+---test_1  
+----log_input  
+----log_output  
+--run_tests.sh  
+-log_input  
+--batch_log.json  
+--stream_log.json  
+-log_output  
+--flagged_purchases.json  
+-src  
+--Main.py  
+--Function_Definitions.py  
+-README.md  
+-run.sh  
 
 ### File and Folder Description
 
@@ -37,18 +37,18 @@ The main directory contains the following files/folders:
 
 ## Prerequisites
 
-The code is written in Python 3.5.2 but should run on Python 3.1 or higher. It will also run in Python 2.7 or higher. If Python 2.7 is preferred, make sure to modify the run.sh file so that it uses:
-python2.7 ./src/Main.py
-instead of
-python3 ./src/Main.py
+The code is written in Python 3.5.2 but should run on Python 3.1 or higher. It will also run in Python 2.7 or higher. If Python 2.7 is preferred, make sure to modify the run.sh file so that it uses:  
+python2.7 ./src/Main.py  
+instead of  
+python3 ./src/Main.py  
 
 ### Additional Libraries/Depndencies
 
-I did not use any additional libraries besides those standard ones available in Python:
--numpy
--json
--os
--collections/OrderedDict
+I did not use any additional libraries besides those standard ones available in Python:  
+-numpy  
+-json  
+-os  
+-collections/OrderedDict  
 If Python 3.1 or 2.7 or higher are used, no installations are required
 
 ## Authors
