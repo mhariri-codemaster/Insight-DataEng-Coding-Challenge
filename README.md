@@ -1,6 +1,6 @@
 # Anomaly Detection Code
 
-This code is used to detect anomalies in purchase orders submitted through a stream log. The code first reads the history of previous purchase orders made by customers and saves them into a record, as well as friend/unfriend requests submitted by those customers to form social network. New purchase orders and friend/unfriend requests are then used to update the record and network as they are recieved. The code checks every new purchase order of a customer against previous ones in the customer's social network and decided wether it was an anomaly. When all streaming information is read, the code returns a file with a list of all anomalous purchase submissions.  
+This code is used to detect anomalies in purchase orders submitted through a stream log. The code first reads the history of previous purchase orders made by customers and saves them into a record, as well as friend/unfriend requests submitted by those customers to form a social network. New purchase orders and friend/unfriend requests are then used to update the record and network as they are recieved. The code checks every new purchase order of a customer against previous ones in the customer's social network and decides wether it was an anomaly. When all streaming information is read, the code returns a file with a list of all anomalous purchase submissions.  
 
 ## Approach
 
@@ -26,7 +26,7 @@ The main directory contains the following files/folders:
 -README.md
 -run.sh
 
-### File.Folder Description
+### File and Folder Description
 
 * **insight_testsuit:** It contains "tests" which has the test folders used to perform the tests on the code. I only included one test folder "test_1". "run_tests.sh" can be used to automate running the tests from shell terminal. Simply go to the ./insight_suite directory and type ./run_tests.sh
 * **log_input:** It has two files, "batch_log.json" which contains the information needed to build the initial records and social network, and "stream_log.json" which contains the new purchase submissions and social network updates from which anomalies will be detected.
