@@ -1,6 +1,7 @@
 # Anomaly Detection Code
 
-This code is used to detect anomalies in purchase orders submitted through a stream log. The code first reads the history of previous purchase orders made by customers and saves them into a record, as well as friend/unfriend requests submitted by those customers to form a social network. New purchase orders and friend/unfriend requests are then used to update the record and network as they are recieved. The code checks every new purchase order of a customer against previous ones in the customer's social network and decides wether it was an anomaly. When all streaming information is read, the code returns a file with a list of all anomalous purchase submissions.  
+This code is used to detect anomalies in purchase orders submitted through a stream log. The code first reads the history of previous purchase orders made by customers and saves them into a record, as well as friend/unfriend requests submitted by those customers to form a social network. New purchase orders and friend/unfriend requests are then used to update the record and network as they are recieved. The code checks every new purchase order of a customer against previous ones in the customer's social network and decides wether it was an anomaly. When all streaming information is read, the code returns a file with a list of all anomalous purchase submissions. 
+The assignment can be found at https://github.com/InsightDataScience/anomaly_detection
 
 ## Approach
 
